@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #6f7a85;
+  color: #111;
+}
+
+.header {
+  padding: 20px;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1506744038136-46273834b3fb') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.welcome {
+  padding: 100px 20px 60px;
+}
+
+.welcome h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.welcome p {
+  font-size: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+.block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 20px;
+}
+
+.img1 {
+  background-image: url('https://s.zagranitsa.com/images/articles/6729/870x486/53d189dfcd54fa9ecae756ddf5a7c2ee.jpg?1530714543');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  border-radius: 40px;
+}
+
+.texte1 {
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  color: #000000;
+}
+
+.texte1 h2 {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
